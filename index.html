@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juliana</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/gif" href="./img/cat2.gif">
+</head>
+<body>
+    <div class="main" id="topo">
+        <h1>Portifólio</h1>
+        <!-- <h1>JULIANA</h1> -->
+        
+    </div>
+
+    <div class="divisao sobre-mim gap-bottom" id="sobre">
+        <img src="./img/image.png" alt="gatineo" class="gato">
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#formacao">Formação Acadêmica</a></li>
+                <li><a href="#atuacao">Atuação Profissional</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+            </ul>
+        </nav>
+
+        <div>
+            <h2>Sobre mim</h2>
+
+            <p>
+                Olá! Me chamo Juliana, tenho 23 anos e sou estudante de Análise e Desenvolvimento de Sistemas. Busco desafios que me ajudem a crescer e aprimorar minhas habilidades. 
+            </p>
+        </div>
+
+        <img class="foto" src="./img/julianaperfil3.jpeg" alt="minha foto" width="300px" height="300px">
+
+        <span class="divisoria">
+            <img src="./img/pngegg.png" alt="flores" width="250px">
+            <img src="./img/cat2.gif" alt="gatineo" width="60px">
+            <img src="./img/pngegg.png" alt="flores" width="250px">
+        </span>
+    </div>
+
+    <div class="divisao gap-bottom" id="formacao">
+        <h2>Formação Acadêmica</h2>
+        <p>
+            Cursando 2° semestre - Análise e Desenvolvimento de Sistemas
+        </p>
+
+        <span class="divisoria">
+            <img src="./img/pngegg.png" alt="flores" width="250px">
+            <img src="./img/cat2.gif" alt="gatineo" width="60px">
+            <img src="./img/pngegg.png" alt="flores" width="250px">
+        </span>
+    </div>
+
+    <div class="divisao formacao gap-bottom" id="atuacao">
+        <h2>Atuação Profissional</h2>
+
+        <p>
+            Meu objetivo é atuar como desenvolvedor front-end criando interfaces web modernas e funcionais. Pretendo me especializar em HTML, CSS e JavaScript, buscando sempre inovação e aprendizado para contribuir com soluções e projetos eficientes.
+        </p>
+
+        <span class="divisoria">
+            <img src="./img/pngegg.png" alt="flores" width="250px">
+            <img src="./img/cat2.gif" alt="gatineo" width="60px">
+            <img src="./img/pngegg.png" alt="flores" width="250px">
+        </span>
+    </div>
+
+    <div class="divisao gap-bottom" id="hobbies">
+        <h2>Hobbies</h2>
+
+        <p>
+            Sou apaixonada por gatos. Gosto de, no tempo livre, fazer lista de compras de maquiagem e roupas, ler livros de romance ou jogar <span class="lol">League of Legends</span>.
+        </p>
+
+        <span class="divisoria">
+            <img src="./img/pngegg.png" alt="flores" width="250px">
+            <img src="./img/cat2.gif" alt="gatineo" width="60px">
+            <img src="./img/pngegg.png" alt="flores" width="250px">
+        </span>
+    </div>
+
+    <div class="divisao links">
+        <ul>
+            <li><a href="https://www.instagram.com/__julianacarvalho/?hl=pt-br"><img src="./img/instagram-logo.png" alt="Logotipo do Instagram" width="50"></a></li>
+            <li><a href="https://www.linkedin.com/in/juliana-carvalho-alves-276154223/"><img src= "./img/linkedin2.png" alt="Logotipo do Linkedin" width="40"></a></li>
+            <li><a href="https://discord.com/channels/@joleana2893"><img src="./img/discord.png" alt=" Logotipo do Discord" width="50"></a></li>
+            <li><a href="./pages/index2.html"><img src="./img/catkawaii.gif" alt="Animação de gatinho correndo" width="60"></a></li>
+        </ul>
+    </div>
+
+    <!-- <div class="divisao links">
+        <a>Contate-me</a>
+    </div> -->
+
+    <div class="divisao copyright">
+        <h4 class="copy"></h4>
+    </div>
+
+    <script>
+        document.querySelector('.gato').addEventListener('click', () => {window.location.href = `./pages/index3.html`})
+        document.querySelector('.lol').addEventListener('click', () => {window.location.href = `https://www.youtube.com/watch?v=FGUNOKFPMQE`})
+
+        let copy = document.querySelector('.copy');
+        copy.innerHTML = `Juliana &copy; ${new Date().getFullYear()}`;
+    </script>
+</body>
+</html>
